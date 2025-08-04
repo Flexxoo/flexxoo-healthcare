@@ -1,15 +1,14 @@
 {
-    "name": "spark-template",
+    "name": "flexxoo-healthcare",
     "private": true,
-    "version": "0.0.0",
+    "version": "1.0.0",
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "kill": "fuser -k 5000/tcp",
-        "build": "tsc -b --noCheck && vite build",
+        "build": "tsc && vite build",
         "lint": "eslint .",
-        "optimize": "vite optimize",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "type-check": "tsc --noEmit"
     },
     "dependencies": {
         "@emailjs/browser": "^4.4.1",
